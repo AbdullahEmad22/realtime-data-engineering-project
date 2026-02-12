@@ -151,5 +151,4 @@ if __name__ == "__main__":
                                .option('table', 'created_users')
                                .start())
             
-
             streaming_query.awaitTermination()         
