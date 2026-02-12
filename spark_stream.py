@@ -51,7 +51,7 @@ def insert_data(session, **kwargs):
     try:
         session.execute("""
             INSERT INTO spark_streams.created_users(id, first_name, last_name, gender, address,
-                post_code, email, username, dob, registered_date, picture)
+                post_code, email, username, dob, registered_date, phone, picture)
                 VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
         """, (user_id, first_name, last_name, gender, address,
               postcode, email, username, dob, registered_date, phone, picture))
@@ -151,4 +151,5 @@ if __name__ == "__main__":
                                .option('table', 'created_users')
                                .start())
             
+
             streaming_query.awaitTermination()         
