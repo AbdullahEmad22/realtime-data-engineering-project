@@ -63,7 +63,6 @@ This project serves as a comprehensive guide to building an end-to-end data engi
 - **Purpose:** Temporary storage for raw data fetched by Airflow.
 - **What It Does:**
   - Acts as a bridge between ingestion and streaming layers.
-  - Kafka connector fetches data from PostgreSQL.
 
 ---
 
