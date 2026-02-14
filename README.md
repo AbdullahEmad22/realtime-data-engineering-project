@@ -36,6 +36,7 @@ This project serves as a comprehensive guide to building an end-to-end data engi
 - Cassandra
 - PostgreSQL
 - Docker
+- Draw.io
 
 ---
 
