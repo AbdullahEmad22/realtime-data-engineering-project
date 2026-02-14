@@ -69,11 +69,10 @@ This project serves as a comprehensive guide to building an end-to-end data engi
 ### 4. 🛰️ Apache Kafka & 🧭 Apache Zookeeper – Streaming Layer
 - **Purpose:** Real-time streaming backbone.
 - **What It Does:**
-  - Kafka streams data from PostgreSQL to Spark.
+  - Kafka streams data from Airflow to Spark.
   - Zookeeper manages and coordinates Kafka brokers.
 - **Additional Components:**
-  - **Kafka Connect:** Connects PostgreSQL with Kafka.
-  - **Schema Registry:** Manages Avro schemas for message serialization.
+  - **Schema Registry:** Manages JSON schemas for message serialization.
   - **Kafka Control Center:** Helps monitor Kafka topics, throughput, consumer lag, etc.
 
 ![Kafka Topic](docs/kafka_topic.png)
@@ -84,7 +83,7 @@ This project serves as a comprehensive guide to building an end-to-end data engi
 - **Purpose:** Performs structured streaming & transformation.
 - **What It Does:**
   - Reads real-time data from Kafka topics.
-  - Parses and transforms raw JSON/Avro data into a structured format.
+  - Parses and transforms raw JSON data into a structured format.
   - Pushes cleaned/structured data to Cassandra.
  
 ![Spark Streaming](docs/spark_streaming.png)
