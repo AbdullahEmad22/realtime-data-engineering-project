@@ -114,6 +114,7 @@ This project serves as a comprehensive guide to building an end-to-end data engi
 - ⚙️ **Stream Processing :** Live data transformation with Apache Spark Structured Streaming.
 - 🗃️ **Scalable Storage :** Persist data in Apache Cassandra, a distributed NoSQL database.
 - 🧭 **Monitoring & Schemas :** Manage and track streams with Kafka Control Center & Schema Registry.
+- 🐳 **Containerized Architecture:** All services run in isolated Docker containers for reproducibility and scalability.
 
 ---
 
