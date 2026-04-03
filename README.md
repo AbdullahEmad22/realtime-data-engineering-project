@@ -1,4 +1,4 @@
-# Realtime Data Streaming | End-to-End Data Engineering Project
+# ⚡ Realtime Data Streaming | End-to-End Data Engineering Project
 
 Welcome to the **Realtime Data Streaming Pipeline** repository! 🚀  
 A scalable data pipeline using **Airflow, Kafka, Spark, and Cassandra**, fully containerized with **Docker**.
